@@ -18,6 +18,20 @@ h1 {
 	
 }
 
+h1 {
+	font-size: 30px;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.nav li:hover {
+  background-color: #111;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -49,4 +63,14 @@ li a {
 
 li a:hover {
   background-color: #111;
+}
+
+.logo col-md-8 {
+	position: absolute;
+	right: 80px;
+	padding: 10px;
+}
+
+.clearfix {
+	overflow: auto;
 }
